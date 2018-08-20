@@ -1,0 +1,32 @@
+
+KOUOK@DESKTOP-65S1UNH MINGW64 /d/GitHub/20180820gitbash
+$ git init
+Initialized empty Git repository in D:/GitHub/20180820gitbash/.git/
+
+KOUOK@DESKTOP-65S1UNH MINGW64 /d/GitHub/20180820gitbash (master)
+$ git add .
+
+KOUOK@DESKTOP-65S1UNH MINGW64 /d/GitHub/20180820gitbash (master)
+$ git commit -m "第一次在本地提交说明文件]"
+[master (root-commit) cc98f08] 第一次在本地提交说明文件]
+ 1 file changed, 13 insertions(+)
+ create mode 100644 readme.md
+
+KOUOK@DESKTOP-65S1UNH MINGW64 /d/GitHub/20180820gitbash (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+KOUOK@DESKTOP-65S1UNH MINGW64 /d/GitHub/20180820gitbash (master)
+$ ^C
+
+KOUOK@DESKTOP-65S1UNH MINGW64 /d/GitHub/20180820gitbash (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
